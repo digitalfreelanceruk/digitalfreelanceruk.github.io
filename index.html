@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			width: 100%;
+			height: 100%;
+		}
+		.container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url('/images/Liam-Blend.jpg') #202020;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center left;
+		}
+		.leftcol {
+			width: 50%;
+			position: absolute;
+			left: 45%;
+			top: 45%;
+			transform: translateY(-50%);
+			padding: 6%;
+		}
+		.logo {
+
+		}
+		.logo span {
+			display: none
+		}
+		.logo img {
+			width: 100%;
+			height: auto;
+			max-width: 250px
+		}
+		.social {
+			margin-top: 30%
+		}
+		.social ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.social li {
+			display: inline-block;
+			width: 16.66%;
+			max-width: 50px;
+			padding-right: 20px;
+		}
+		.social a {
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			opacity: .8;
+			width: 100%;
+			display: block;
+			height: 0;
+			padding-bottom: 100%;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			font-size: 0;
+			transition: opacity .4s ease
+		}
+		.social a:hover {
+			opacity: 1
+		}
+		.soundcloud { background-image: url('/images/white-soundcloud-512.png') }
+		.twitter { background-image: url('/images/twitter-xxl.png') }
+		.instagram { background-image: url('/images/instagramlogo.png') }
+		.youtube { background-image: url('/images/youtube-xxl.png') }
+		.facebook { background-image: url('/images/facebook-3-256.png') }
+		.email { background-image: url('/images/email-12-xxl.png') }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="leftcol">
+			<div class="logo">
+				<img src="/images/LiamPaton_Logo.png">
+				<span>Liam Paton</span>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a href="https://soundcloud.com/liampatonmusic" class="soundcloud">SoundCloud</a></li><li><a href="https://twitter.com/liampatonmusic" class="twitter">Twitter</a></li><li><a href="https://www.instagram.com/liampatonmusic/" class="instagram">Instagram</a></li><li><a href="#" class="youtube">Youtube</a></li><li><a href="https://www.facebook.com/liampatonmusic" class="facebook">Facebook</a></li><li><a href="mailto:hello@liampaton.co" class="email">Email</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
